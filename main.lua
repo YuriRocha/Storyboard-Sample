@@ -18,8 +18,8 @@ storyboard.gotoScene( "scene1" )
 
 -- table to setup tabBar buttons
 local tabButtons = {
-	{ label="First", up="icon1.png", down="icon1-down.png", width = 32, height = 32, selected=true },
-	{ label="Second", up="icon2.png", down="icon2-down.png", width = 32, height = 32 },
+    { label="First", defaultFile="icon1.png", overFile="icon1-down.png", width = 32, height = 32, selected=true },
+    { label="Second", defaultFile="icon2.png", overFile="icon2-down.png", width = 32, height = 32 },
 }
 
 -- create the actual tabBar widget
